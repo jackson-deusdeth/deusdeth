@@ -12,5 +12,22 @@
 .body {
     margin-left:70px;
     margin-bottom:20px;
-    background-color: rgb(184, 247, 250);
+    background-color: lightseagreen;
+    
+}
+
+dt {
+    color: red;
+}
+
+dd {
+    color: blue;
+}
+
+.tags {
+  border-style: groove;
+  border-width: 10px;
+  border-color: rgb(56, 110, 226);
+  
+ 
 }
