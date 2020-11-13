@@ -10,9 +10,9 @@
 }
 
 .body {
-    margin-left:70px;
-    margin-bottom:20px;
-    background-color: lightseagreen;
+    margin-left:50px;
+    margin-bottom:0px;
+    background-color: rgba(250, 12, 250, 0.342);
     
 }
 
@@ -28,6 +28,7 @@ dd {
   border-style: groove;
   border-width: 10px;
   border-color: rgb(56, 110, 226);
+  border-right: 0px;
   
  
 }
