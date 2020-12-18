@@ -1,0 +1,21 @@
+.texto {
+    color: red;
+    background-color:black;
+    width: 1210px;
+}
+
+.circle{
+    border-radius: 60px;   
+}
+
+.descrição{
+   padding-top: 30px;
+}
+
+.videos {
+    border-radius: 60px; 
+}
+
+.porto-galinha {
+    padding-top: 10px;
+}
