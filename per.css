@@ -17,5 +17,13 @@
 }
 
 .porto-galinha {
-    padding-top: 10px;
+    padding-top: 30px;
+    
+}
+
+.site {
+    background-color: black;
+    color: red;
+    width: 200px;
+    height: 100px;
 }
