@@ -39,3 +39,84 @@ dd {
     margin-right: 400px;
     margin-bottom: 50px;
   }
+
+  # {
+    margin: 0;
+    padding: 0;
+    font-family: consolas;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #050801;
+}
+
+i {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: #f44f03;
+    font-size: 85px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.100s;
+    letter-spacing: 50px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+
+}
+
+i:nth-child(1)
+{
+    filter: hue-rotate(290deg);
+}
+
+
+i:hover {
+    background: #f5f858;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4,       
+}
+
+i span {
+    position: absolute;
+    display: block;
+}
+
+i span:nth-child(1) {
+    top: 0;
+    left: -100;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#7efd08);
+    animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+    0% 
+    {
+        left: -100%;
+    }
+    50%,100% 
+    {
+        left: 100%;
+    }
+}
+
+
+
+.titulo {
+    padding-top: 80px;
+}
+    
+
+
