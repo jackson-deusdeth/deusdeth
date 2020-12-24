@@ -1,0 +1,41 @@
+
+.texto-1 {
+    padding: 20px;
+    padding-top: 50px;
+    height: 0px;
+    font-style:oblique;
+    width: 1200px;
+}
+
+
+.bandeira {
+    width: 1180px;
+    height: 550px;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: rgb(176,224,230);
+    border-color: rgb(235, 13, 5);
+    border-radius: 50px;
+}
+
+.texto {
+    color: rgb(235, 13, 5);
+    font-family: cursive;
+    padding-bottom:  30px;
+}
+
+.dd {
+    color: royalblue;
+    font-family: cursive;
+}
+
+footer {
+    padding-top: 50px;
+    color:white;
+    background-color: black;
+    background-position: 30px;
+    width: 300px;
+    margin-left: 30px;
+    margin: 0px;
+}
+
