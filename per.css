@@ -41,12 +41,7 @@
     font-family: monospace;
 }
 
-# {
-    margin: 0;
-    padding: 0;
-    font-family: consolas;
-    box-sizing: border-box;
-}
+
 
 body {
     display: flex;
@@ -89,7 +84,7 @@ i:hover {
 }
 
 i span {
-    position: absolute;
+  
     display: block;
 }
 
@@ -100,17 +95,6 @@ i span:nth-child(1) {
     height: 2px;
     background: linear-gradient(90deg,transparent,#03e9f4);
     animation: animate1 1s linear infinite;
-}
-
-@keyframes animate1 {
-    0% 
-    {
-        left: -100%;
-    }
-    50%,100% 
-    {
-        left: 100%;
-    }
 }
 
 
