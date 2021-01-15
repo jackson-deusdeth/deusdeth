@@ -1,26 +1,26 @@
 .titulo {
-    margin-top: 50px;
-    margin-left: 06px;
-    margin-bottom: 30px;
-    padding-top: 350px;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-bottom: 30%;
+    padding-top: 10px;
     }
 
-.fundo {background-color: whitesmoke
-    margin-top: 60px;
-    margin-left: 80px;
-    margin-bottom: 40px;
+.fundo {background-color: whitesmoke;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
 }    
 
 .texto {
-    margin-bottom: 40px;
-    margin-top: 30px;
+    margin-bottom: 40%;
+    margin-top: 30%;
     color: rgb(7, 7, 7);
 
 }
 
 .css {
-   margin-bottom: 20px;
-   margin-bottom: 20px;
+   margin-bottom: 20%;
+   margin-bottom: 20%;
    margin-block-end: 40px;
 }
 
@@ -28,23 +28,23 @@
 .slideshow 
 {
     margin: 0 auto;
-    padding-top: 0px;
-    height: 500px;
+    padding-top: 10%;
+    height: 30%;
     box-sizing: border-box;
 }
 
 .content
 {
     margin: auto;
-    width: 180px;
-    perspective: 800px;
+    width: 50%;
+    perspective: 70%;
     position: relative;
-    padding-top: 80px;
+    padding-top: 10%;
 }
 
 .content-carrousel
 {
-    width: 100%;
+    width: 30%;
     position: absolute;
     float: left;
     animation: rotar 15s infinite linear;
@@ -59,72 +59,72 @@
 
 .content-carrousel figure
 {
-    width: 110%;
-    height: 200px;
+    width: 50%;
+    height: 50%;
     border: 5px solid #15f701;
     overflow: hidden;
     position: absolute;
-    border-radius: 30px;
+    border-radius: 30%;
 }
 
 .content-carrousel figure:nth-child(1)
 {
-    transform: rotateY(0deg) translateZ(300px);
+    transform: rotateY(0deg) translateZ(100%);
 }
 
 .content-carrousel figure:nth-child(2)
 {
-    transform: rotateY(40deg) translateZ(300px);
+    transform: rotateY(40deg) translateZ(100%);
 }
 
 .content-carrousel figure:nth-child(3)
 {
-    transform: rotateY(80deg) translateZ(300px);
+    transform: rotateY(80deg) translateZ(100%);
 }
 
 .content-carrousel figure:nth-child(4)
 {
-    transform: rotateY(120deg) translateZ(300px);
+    transform: rotateY(120deg) translateZ(100%);
 }
 
 .content-carrousel figure:nth-child(5)
 {
-    transform: rotateY(160deg) translateZ(300px);
+    transform: rotateY(160deg) translateZ(300%);
 }
 
 .content-carrousel figure:nth-child(6)
 {
-    transform: rotateY(200deg) translateZ(300px);
+    transform: rotateY(200deg) translateZ(100%);
 }
 
 .content-carrousel figure:nth-child(7)
 {
-    transform: rotateY(240deg) translateZ(300px);
+    transform: rotateY(240deg) translateZ(100%);
 }
 
 .content-carrousel figure:nth-child(8)
 {
-    transform: rotateY(280deg) translateZ(300px);
+    transform: rotateY(280deg) translateZ(100%);
 }
 
 .content-carrousel figure:nth-child(9)
 {
-    transform: rotateY(320deg) translateZ(300px);
+    transform: rotateY(320deg) translateZ(100%);
 }
 
 .shadow
 {
     position: absolute;
-    box-shadow: 0px 0px 20px #000;
-    border-radius: 2px;
+    box-shadow: 0% 0% 20% #000;
+    border-radius: 2%;
 }
 
 .content-carrousel img
 {
     image-rendering: auto;
     transition: all 300ms;
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 600%;
 }
 
 .content-carrousel img:hover
