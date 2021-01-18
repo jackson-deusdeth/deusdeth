@@ -1,0 +1,23 @@
+.header {
+    padding-left: 3%;
+}
+
+.header-site {
+    max-width: 100%;
+    padding: 0%;
+    flex-basis: 10%;
+}
+
+.p1 {
+    width: 50%;
+    height: 100%;
+}
+
+.html {
+    padding-right: 10%;
+}
+
+
+
+
+
