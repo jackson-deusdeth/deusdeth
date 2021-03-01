@@ -1,11 +1,18 @@
+<!DOCTYPE html>
+
+<head>
+
+<title>efeitoslide</title>
+<link rel="stylesheet" href="listaordenada.css">
+
 <h1>Projetos</h1>
 
 <ul class="tree">
      <li>
-        <span wm-folder> backend </span>
+        <span wm-folder>backend</span>
 <ul>
      <li>
-        <span wm-folder> app </span>
+        <span wm-folder>app</span>
              <ul>
                  <li>produtos.js</li>
                  <li>usuarios.js</li>
@@ -15,7 +22,7 @@
 
 
      <li>
-        <span wm-folder> confi... </span>
+        <span wm-folder>confi...</span>
              <ul>
                  <li>banco.js</li>
                  <li>rotas.js</li>
@@ -27,10 +34,10 @@
      </li>
 
      <li>
-        <span wm-folder> frontend </span>
+        <span wm-folder>frontend</span>
  <ul>
       <li>
-        <span wm-folder>public </span>
+        <span wm-folder>public</span>
              <ul>
 
              <li>app.css</li>
@@ -42,12 +49,12 @@
 </li>
 </ul>
 
-<link rel="stylesheet" href="https://github.com/jackson-deusdeth/deusdeth/tree.css">
-<link rel="stylesheet" href="file:///C:/Users/Ziro%20I/Desktop/jacksonMahJuh/INDEX.HTML"
 <script>
     document.querySelectorAll('[wm-folder').forEach(folder => {
         folder.onclick = function(e) {
-            console.log('teste')
+            const ul = folder.nextElementSibling
+            const d = ul.style.display
+            ul.style.display = d === 'nome' ? 'block' : 'none'
         }
     })
 </script>
