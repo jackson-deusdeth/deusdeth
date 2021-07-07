@@ -1,47 +1,22 @@
-.texto {
-    color: red;
-    background-color:black;
-    width: 1210px;
-}
-
-.circle{
-    border-radius: 60px;   
-    padding: 10px;
-}
-
-.descrição{
-   padding-top: 0px;
-}
-
-.videos {
-    border-radius: 60px; 
-}
-
-.porto-galinha {
-    padding-top: 30px;
+.header-site {
     
-}
-
-.site {
-    background-color: black;
-    color: red;
-    width: 200px;
-    height: 100px;
-}
-.corpo {
-    padding: 25px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-}
-
-.rodapé {
-    padding-top: 25px;
-    background-color: gainsboro;
-    color: green;
-    font-family: monospace;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
 
 
+
+# {
+    margin: 0;
+    padding: 0;
+    font-family: consolas;
+    box-sizing: border-box;
+}
 
 body {
     display: flex;
@@ -49,32 +24,32 @@ body {
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
-
+    background: #050801;
 }
 
-i {
+a {
     position: relative;
     display: inline-block;
     padding: 25px 30px;
     margin: 40px 0;
     color: #03e9f4;
-    font-size: 85px;
+    font-size: 24px;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
     transition: 0.100s;
     letter-spacing: 50px;
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
-    
+
 }
 
-i:nth-child(1)
+a:nth-child(1)
 {
     filter: hue-rotate(290deg);
 }
 
 
-i:hover {
+a:hover {
     background: #1fe995;
     color: #050801;
     box-shadow: 0 0 5px #03e9f4,
@@ -83,12 +58,12 @@ i:hover {
                 0 0 200px #03e9f4,       
 }
 
-i span {
-  
+a span {
+    position: absolute;
     display: block;
 }
 
-i span:nth-child(1) {
+a span:nth-child(1) {
     top: 0;
     left: -100;
     width: 100%;
@@ -97,12 +72,15 @@ i span:nth-child(1) {
     animation: animate1 1s linear infinite;
 }
 
-
-
-.titulo {
-    padding-top: 80px;
+@keyframes animate1 {
+    0% 
+    {
+        left: -100%;
+    }
+    50%,100% 
+    {
+        left: 100%;
+    }
 }
-    
-
 
 
